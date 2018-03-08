@@ -28,6 +28,22 @@ ul {
     color: crimson;
 }
 
+.dark {
+    padding: 15px;
+    background: darkblue;
+    color: navajowhite;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.light {
+    padding: 15px;
+    background: aquamarine;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*
 Header
  */
@@ -53,11 +69,11 @@ header li {
     padding: 0 20px 0 20px;
 }
 
-header #branding {
+header#branding {
     float: left;
 }
 
-header #branding h1 {
+header#branding h1 {
     margin: 0;
 }
 
@@ -133,6 +149,24 @@ Boxes
 
 #boxes .box img {
     height: 90px;
+}
+
+/*
+Sidebar
+ */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*
+Main-col
+ */
+article#main-col {
+    float: left;
+    width: 65%;
 }
 
 footer {
