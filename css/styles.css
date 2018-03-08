@@ -130,3 +130,15 @@ Boxes
     padding: 10px;
     text-align: center;
 }
+
+#boxes .box img {
+    height: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 50px;
+    color: antiquewhite;
+    background-color: crimson;
+    text-align: center;
+}
